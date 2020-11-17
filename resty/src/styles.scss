@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+$white: #e7e7d3;
+$black: #111111;
+
+
+html{
+    overflow: hidden;
+}
+
+
+label{
+    color: $black;
+}
+
+header{
+    font-family: 'Lobster', cursive;
+    top:0;
+    color: $white;
+    height: 6vh;
+    background-color: yellowgreen;
+    width: 100vw;
+    background-color: #256eaa;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+
+
+section{
+    font-family: 'Fjalla One', sans-serif;
+    color: $white;
+    text-align: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: orangered;
+    background-color: #2125ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%232e3fff' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%232125ff' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231b25f1' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%231625e3' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%231224d5' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%230e24c8' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%230c23ba' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%230b21ac' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%230b209f' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%230c1e92' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%230d1d85' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%230e1b78' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%230f196b' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2310175f' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23101452' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23101246' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%230f103a' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%230f0c2f' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230e0624' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+
+footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+    background-color: #256eaa;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+font-family: 'Lobster', cursive;
+color: $white;
+}
+//////////////////////////////  Main ///////////////////////////
+
+.logo{
+    height: 4vh;
+    width: 4vh;
+    background: url(./images/sloth.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.header-sub{
+
+    padding-top: 12px;
+}
+
+.form-div{
+    color: $black;
+    margin: auto;
+    background-color: #94b6ff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2386adfe' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%2378a4fc' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%236b9bfa' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%235e92f7' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23518af5' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%234582f1' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23397aee' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+    width: 45vw;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.form-btn{
+    margin: 2vw;
+}
+
+.text-div{
+    color: $black;
+    margin: auto;
+    margin-top: 3vh;
+    background-color: #fffff0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23a576cc' stroke-width='0' %3E%3Crect fill='%23c6f5ec' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E"); 
+    width: 45vw;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.form-head{
+    padding: 3em;
+}
+
+.lefty-shift{
+    margin-left: 22px;
+}
