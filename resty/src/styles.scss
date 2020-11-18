@@ -22,10 +22,11 @@ header{
     background-color: yellowgreen;
     width: 100vw;
     background-color: #256eaa;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
-
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 3;
+    position: absolute;
 }
 
 
@@ -36,11 +37,9 @@ section{
     text-align: center;
     width: 100vw;
     height: 90vh;
-    background-color: orangered;
-    background-color: #2125ff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%232e3fff' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%232125ff' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231b25f1' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%231625e3' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%231224d5' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%230e24c8' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%230c23ba' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%230b21ac' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%230b209f' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%230c1e92' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%230d1d85' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%230e1b78' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%230f196b' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2310175f' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23101452' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23101246' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%230f103a' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%230f0c2f' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230e0624' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
+    z-index: 2;
+    position: absolute;
+    top: 5em;
 }
 
 
@@ -48,15 +47,16 @@ background-size: cover;
 footer{
     width: 100vw;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     height: 5vh;
     background-color: #256eaa;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
-font-family: 'Lobster', cursive;
-color: $white;
-position: fixed;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+    color: $white;
+    position: fixed;    
+    z-index: 3;
 }
 //////////////////////////////  Main ///////////////////////////
 
@@ -120,3 +120,83 @@ background-size: cover;
     overflow-y: scroll;
     max-height: 30em;
 }
+
+
+///////////////////// SKY /////////////////
+
+
+
+
+@keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  @-webkit-keyframes move-background {
+    from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  @-moz-keyframes move-background {    
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+      @-webkit-keyframes move-background {
+      from {
+          -webkit-transform: translate3d(0px, 0px, 0px);
+      }
+      to { 
+          -webkit-transform: translate3d(1000px, 0px, 0px);
+      }
+  }
+  
+  .background-container{
+      position: fixed;
+      top: 0;
+      left:0;
+      bottom: 0;
+      right: 0;
+  }
+  
+  .stars {
+   background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+   position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: block;
+        z-index: 0;
+  }
+  
+  .twinkling{
+      width:10000px;
+      height: 100%;
+      background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+      background-size: 1000px 1000px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      
+      -moz-animation:move-background 70s linear infinite;
+    -ms-animation:move-background 70s linear infinite;
+    -o-animation:move-background 70s linear infinite;
+    -webkit-animation:move-background 70s linear infinite;
+    animation:move-background 70s linear infinite;
+      
+  }
+  
