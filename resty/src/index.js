@@ -26,7 +26,6 @@ class App extends React.Component{
 
         <>
             <Header />
-
             <Section/>
             <Footer />    
         </>
@@ -35,6 +34,7 @@ class App extends React.Component{
     }
 
 }
+
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(<App />, rootElement);

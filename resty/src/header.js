@@ -4,9 +4,9 @@ function Header () {
     return( 
 
         <header>
-        <div class='logo'></div>
-        <div class='header-sub'>
-            <h1>Welcome to Resty</h1>
+        <div className='logo'></div>
+        <div className='header-sub'>
+            <h1 data-testid="display-head">Welcome to Resty</h1>
             </div>    
         </header>
     )
