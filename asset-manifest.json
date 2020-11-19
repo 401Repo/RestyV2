@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/RestyV2/static/css/main.ad86db7b.chunk.css",
-    "main.js": "/RestyV2/static/js/main.33003cb4.chunk.js",
-    "main.js.map": "/RestyV2/static/js/main.33003cb4.chunk.js.map",
+    "main.css": "/RestyV2/static/css/main.f68df88b.chunk.css",
+    "main.js": "/RestyV2/static/js/main.64635425.chunk.js",
+    "main.js.map": "/RestyV2/static/js/main.64635425.chunk.js.map",
     "runtime-main.js": "/RestyV2/static/js/runtime-main.9a409ec4.js",
     "runtime-main.js.map": "/RestyV2/static/js/runtime-main.9a409ec4.js.map",
-    "static/js/2.f5d1f3c7.chunk.js": "/RestyV2/static/js/2.f5d1f3c7.chunk.js",
-    "static/js/2.f5d1f3c7.chunk.js.map": "/RestyV2/static/js/2.f5d1f3c7.chunk.js.map",
+    "static/js/2.4e1947b0.chunk.js": "/RestyV2/static/js/2.4e1947b0.chunk.js",
+    "static/js/2.4e1947b0.chunk.js.map": "/RestyV2/static/js/2.4e1947b0.chunk.js.map",
     "index.html": "/RestyV2/index.html",
-    "static/css/main.ad86db7b.chunk.css.map": "/RestyV2/static/css/main.ad86db7b.chunk.css.map",
-    "static/js/2.f5d1f3c7.chunk.js.LICENSE.txt": "/RestyV2/static/js/2.f5d1f3c7.chunk.js.LICENSE.txt",
-    "static/media/styles.scss": "/RestyV2/static/media/sloth.4015ae0b.png"
+    "static/css/main.f68df88b.chunk.css.map": "/RestyV2/static/css/main.f68df88b.chunk.css.map",
+    "static/js/2.4e1947b0.chunk.js.LICENSE.txt": "/RestyV2/static/js/2.4e1947b0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9a409ec4.js",
-    "static/js/2.f5d1f3c7.chunk.js",
-    "static/css/main.ad86db7b.chunk.css",
-    "static/js/main.33003cb4.chunk.js"
+    "static/js/2.4e1947b0.chunk.js",
+    "static/css/main.f68df88b.chunk.css",
+    "static/js/main.64635425.chunk.js"
   ]
 }
