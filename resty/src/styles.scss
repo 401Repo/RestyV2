@@ -19,10 +19,9 @@ header{
     top:0;
     color: $white;
     height: 6vh;
-    background-color: yellowgreen;
     width: 100vw;
-    background-color: #256eaa;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #a81c0a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23a82a19' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23a81c0a' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23a50c16' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23a1001f' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%239b0026' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%2395002c' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%238e0032' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23860037' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%237e003c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%2375003f' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%236b0042' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23610044' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23560045' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%234b0346' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23400745' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23350b44' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%232a0d42' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%231e0e3f' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23120e3b' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
     z-index: 3;
@@ -49,8 +48,8 @@ footer{
     position: absolute;
     bottom: 10px;
     height: 5vh;
-    background-color: #256eaa;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23256eaa'/%3E%3Cstop offset='1' stop-color='%233b41ff'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2'%3E%3Cstop offset='0' stop-color='%23ff47a6' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23ff47a6' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #1e1c99;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%2357160d' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%231e1c99' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2338128b' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%2345047e' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%234d0070' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23510064' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23530058' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%2353004d' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23510042' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%234f0039' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%234b0030' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23460028' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23410021' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%233c001b' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23360116' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23300411' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%232a050b' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23250506' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%231f0403' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Lobster', cursive;
@@ -80,17 +79,44 @@ footer{
     padding-top: 12px;
 }
 
+#container-div{
+
+    width: 55vw;
+    margin: auto;
+    display:flex; flex-direction:row;
+    position: relative;
+
+}
+
 .form-div{
     color: $black;
-    margin: auto;
-    background-color: #94b6ff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2386adfe' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%2378a4fc' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%236b9bfa' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%235e92f7' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23518af5' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%234582f1' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23397aee' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover;
-    width: 45vw;
+    background-color: #8a2a25;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%237d1d36' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%236e1748' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%235f1154' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23440c4f' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%2324083e' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%230d042d' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%2302041a' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 40vw;
     padding: 10px;
-    border-radius: 13px;
+    border-radius: 13px 0 0 13px;
+
 }
+
+#history-div{
+    color: $black;
+    margin: auto;
+    background-color: #e09600;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpath fill='%23d79500' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%23ce9300' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%23c59200' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%23bc9100' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%23b38f00' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%23c29210' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%23d1961c' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%23e09925' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23f09b2e' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23ff9e36' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 15vw;
+    padding: 10px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 13px 13px 0;
+    overflow-y: scroll;
+}
+
 
 .form-btn{
     margin: 2vw;
@@ -112,13 +138,132 @@ background-size: cover;
 }
 
 .lefty-shift{
+    margin-top: 18px;
     margin-left: 22px;
 }
 
+.party-text{
+    color: $white;
+    padding-bottom: 1em;
+    text-shadow: 5px 4px 1px #000;
+}
+
+.fun{
+    color: #f0b380;
+}
+
 #result-box{
-    padding-top: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     overflow-y: scroll;
     max-height: 30em;
+    background-color: #3e6113;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23355210' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+#card-catcher{
+    max-width: 40vw;
+    padding: 2em;
+text-align: justify;
+}
+
+
+#body{
+
+}
+
+
+///////////////// Json Pretty ///////////////////////
+
+
+
+#json-pretty{
+    font-size: x-large;
+}
+
+.results{
+    color: #ffb9b9;
+    text-shadow: 5px 4px 1px #000;
+}
+
+/////////////////   Spinner  /////////////
+
+
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+.loader {
+  width: 1em;
+  height: 1em;
+  font-size: 150px;
+  position: absolute;
+}
+@media (max-width: 225px), (max-height: 225px) {
+  .loader {
+    font-size: 75px;
+  }
+}
+.loader:before, .loader:after {
+  content: "";
+  top: 0;
+  display: block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  border-width: 0.5em;
+  border-style: double;
+  border-color: transparent;
+  box-sizing: border-box;
+  border-radius: 1em;
+  -webkit-animation: spin 1s infinite;
+          animation: spin 1s infinite;
+}
+.loader:after {
+  left: 0;
+  border-left-color: #ecf0f1;
+}
+.loader:before {
+  right: 0;
+  border-right-color: #ecf0f1;
+  -webkit-animation-delay: -0.25s;
+          animation-delay: -0.25s;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 
@@ -192,11 +337,11 @@ background-size: cover;
       bottom: 0;
       z-index: 2;
       
-      -moz-animation:move-background 70s linear infinite;
-    -ms-animation:move-background 70s linear infinite;
-    -o-animation:move-background 70s linear infinite;
-    -webkit-animation:move-background 70s linear infinite;
-    animation:move-background 70s linear infinite;
+      -moz-animation:move-background 30s linear infinite;
+    -ms-animation:move-background 30s linear infinite;
+    -o-animation:move-background 30s linear infinite;
+    -webkit-animation:move-background 30s linear infinite;
+    animation:move-background 30s linear infinite;
       
   }
   
