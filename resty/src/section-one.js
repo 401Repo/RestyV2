@@ -7,7 +7,7 @@ function Section(){
     return(
 
         <section>
-            <h1 class='form-head'>Let take in a path and a method:</h1>
+            <h1 className='form-head'>Let's take in a path and a method:</h1>
             <Form  />
            
         </section>

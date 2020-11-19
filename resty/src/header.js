@@ -6,7 +6,7 @@ function Header () {
         <header>
         <div className='logo'></div>
         <div className='header-sub'>
-            <h1 data-testid="display-head">Welcome to Resty</h1>
+            <h1 data-testid="display-head">Welcome to Resty Sloth</h1>
             </div>    
         </header>
     )
